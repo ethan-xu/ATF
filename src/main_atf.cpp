@@ -1,9 +1,9 @@
-#include<stdio.h>
-#include<stdlib.h>
+
+#include "common.h"
 
 int main(int argc,char ** argv)
 {
 
-	printf("hello ATF\n");
+	LOG_INFO("hello ATF\n");
 	return 0;
 }
