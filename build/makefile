@@ -5,7 +5,7 @@ CPP = g++
 PRO_NAME=atf
 PRO_HOME=../
 SRCS=$(PRO_HOME)/src/*.cpp $(PRO_HOME)/src/*.c
-INCS=
+INCS=-I$(PRO_HOME)/src
 LDS=
 OBJS=*.o 
 

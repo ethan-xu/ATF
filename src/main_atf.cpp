@@ -4,6 +4,6 @@
 int main(int argc,char ** argv)
 {
 
-	printf("hello ATF\n");
+	printf("hello ATF,do a hot fix\n");
 	return 0;
 }
