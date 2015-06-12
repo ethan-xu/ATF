@@ -1,15 +1,10 @@
 
 #include "common.h"
 
-int GetNum()
-{
-	return 100;
-}
 int main(int argc,char ** argv)
 {
 
-	LOG_INFO("hello ATF\n");
-	int num=GetNum();
-	LOG_INFO("here getNum=%d\n",num);
+	LOG_INF("hello ATF\n");
+	LOG_ERR("hello ATF, error occured\n");
 	return 0;
 }
